@@ -12,3 +12,10 @@
     width: 940px;
     margin: 0 auto;
 }
+
+.menu__lista {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
