@@ -6,3 +6,9 @@
     --fonte-principal: 'inter';
     --botao-azul-efeito: #5597e9;
 }
+
+.menu {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
