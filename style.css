@@ -26,8 +26,10 @@ header {
 .menu__lista {
     display: flex;
     flex-direction: row;
-    align-items: center;
- 
+    align-items: center; 
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 .menu__item {
@@ -39,10 +41,11 @@ header {
 }
 
 .menu__link {
-    color: #808080;
-    margin-right: 1.25rem;
+    color: var(--branco-principal);
+    margin-right: 2.5rem;
     text-decoration: none;
     text-transform: lowercase;
+    font-size: 25px;
 }
 
 .menu__link.ativo {
@@ -52,25 +55,4 @@ header {
 
 .menu__link:hover {
     text-decoration: underline
-}
-
-:root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
-    --fonte-principal: 'inter';
-    --botao-azul-efeito: #5597e9;
-}
-
-.menu {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-
-.menu__lista {
-    position: absolute;
-    top: 110px;
-    right: 0;
 }
