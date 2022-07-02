@@ -1,9 +1,13 @@
 :root {
     --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
+    --cinza-secundario: #e4e4e4;
+    --cinza-escuro: #505050;
+    --cor-de-fundo: #5ecfa4;
     --verde: #1d8056;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -20,7 +24,7 @@ header {
 .logo {
     width: 18rem;
     height: 18rem;
-    padding: 10px;
+    padding: 5px;
 }
 
 .menu__lista {
@@ -55,4 +59,49 @@ header {
 
 .menu__link:hover {
     text-decoration: underline
+}
+
+.titulo {
+    font-size: 30px;
+    color: var(--verde);
+    background: var(--cinza-secundario);
+    font-weight: bolder;
+    padding-top: 2rem;
+    padding-left: 3rem;    
+}
+
+.cardapio {
+    background: var(--cinza-secundario);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bloco {
+    background: var(--cinza-secundario);
+    flex-direction: column;
+    border: 1px solid var(--cinza-escuro);
+    margin: 3rem; 
+    padding: 1rem; 
+}
+
+.conteudo {
+    margin-top: 0,5;
+    flex-wrap: wrap;
+}
+
+.icone {
+    height: 200px;
+}
+
+.produto {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 8;
+    font-weight: lighter;
+    color: #333333;
+    line-height: 1.5;
+    text-align: justify;
 }
