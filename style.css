@@ -85,7 +85,7 @@ header {
 }
 
 .conteudo {
-    margin-top: 0,5;
+    margin-top: 0,5rem;
     flex-wrap: wrap;
 }
 
@@ -94,14 +94,15 @@ header {
 }
 
 .produto {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
+    margin: 2px;
+    padding-left: 1px;
 }
 
 .descricao {
-    font-size: 8;
-    font-weight: lighter;
+    font-size: 15px;
     color: #333333;
-    line-height: 1.5;
-    text-align: justify;
+    line-height: 1.5rem;
+    padding-left: 2px;
 }
