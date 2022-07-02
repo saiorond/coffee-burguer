@@ -122,3 +122,22 @@ header {
     padding-top: 3px;
     font-weight: bold;
 }
+
+.quem_somos {
+    font-size: 30px;
+    color: var(--verde);
+    background: var(--cinza-secundario);
+    font-weight: bolder;
+    padding-top: 2rem;
+    padding-left: 3rem;  
+}
+
+.texto {
+    background: linear-gradient(#e4e4e4, #1d8056);
+    font-size: 30px;
+    line-height: 2.5rem;
+    text-align: justify;
+    color: var(--cinza-escuro);
+    padding: 5rem 20rem 5rem 20rem;
+}
+
