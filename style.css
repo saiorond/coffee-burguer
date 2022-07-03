@@ -141,3 +141,30 @@ header {
     padding: 5rem 20rem 5rem 20rem;
 }
 
+.titulo2 {
+    font-size: 30px;
+    color: var(--cinza-secundario);
+    background: var(--verde);
+    font-weight: bolder;
+    padding-top: 2rem;
+    padding-left: 3rem;  
+    padding-bottom: 3rem; 
+    text-align: center;
+}
+
+
+.formulario {
+    background-color: var(--verde);
+	color: var(--branco-principal);
+    overflow-x: hidden;
+    padding-right: 3rem;
+	padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-label {
+    font-size: 20px;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+}
