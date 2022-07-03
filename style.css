@@ -149,7 +149,7 @@ header {
     padding-top: 2rem;
     padding-left: 3rem;  
     padding-bottom: 3rem; 
-    text-align: center;
+    text-align: justify;
 }
 
 
@@ -159,6 +159,7 @@ header {
     overflow-x: hidden;
     padding-right: 3rem;
 	padding-left: 3rem;
+    padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,4 +168,30 @@ header {
 .input-label {
     font-size: 20px;
     margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+#celular {
+    width: 50%;
+    height: 10%;
+}
+
+.espaco {
+    background: var(--verde);
+    display: flex;
+   
+}
+
+.botao {
+    background-color: var(--cinza-secundario);
+    border-radius: 5px;
+    padding: 1.125rem;
+    color: var(--verde);
+    font-size: 1.5rem;
+    border-style: solid 2px var(--cinza-escuro);
+    display:inline-block;
+    padding:6px 10px;
+    cursor:pointer;
+    justify-self: end;
+    margin: 20px;
+    text-align: justify;
 }
