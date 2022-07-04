@@ -162,21 +162,45 @@ header {
     padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .input-label {
-    font-size: 20px;
+    font-size: 1.5rem;
     margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+#nome {
+    width: 50%;
+    height: 10%;
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+#email {
+    width: 50%;
+    height: 10%;
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+#senha {
+    width: 50%;
+    height: 10%;
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
 }
 
 #celular {
     width: 50%;
     height: 10%;
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
 }
 
 .espaco {
     background: var(--verde);
+    width: 100%;
     display: flex;
    
 }
@@ -188,10 +212,10 @@ header {
     color: var(--verde);
     font-size: 1.5rem;
     border-style: solid 2px var(--cinza-escuro);
-    display:inline-block;
-    padding:6px 10px;
+    padding: 10px 10px;
     cursor:pointer;
     justify-self: end;
-    margin: 20px;
-    text-align: justify;
+    margin-left: 3rem;
+    margin-bottom: 5rem;
+    align-items: center;
 }
