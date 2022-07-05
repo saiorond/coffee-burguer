@@ -219,3 +219,19 @@ header {
     margin-bottom: 5rem;
     align-items: center;
 }
+
+.footer {
+    background-color: var(--verde);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.imgfooter {
+    width: 30%;
+    height: 10%;
+}
+
+.copyright {
+    color: var(--branco-principal);
+	font-size: 15px;
+}
