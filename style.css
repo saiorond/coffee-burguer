@@ -216,17 +216,17 @@ header {
     cursor:pointer;
     justify-self: end;
     margin-left: 3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     align-items: center;
 }
 
-.footer {
+.rodape {
     background-color: var(--verde);
     text-align: center;
     padding: 40px 0;
 }
 
-.imgfooter {
+.imagem__rodape {
     width: 30%;
     height: 10%;
 }
