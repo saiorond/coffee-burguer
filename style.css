@@ -237,6 +237,21 @@ header {
 	font-size: 15px;
 }
 
-@media screen and (max-width:400px) {
-    
+@media screen and (max-width:450px) {
+    .logo {
+        max-width: 10rem;
+        height: 10rem;
+    }
+    .menu__lista {
+        flex-direction: column;
+        top: 50px;
+        font-size: 15px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .cardapio {
+        flex-direction: column;
+
+    }
 }
