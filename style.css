@@ -231,7 +231,12 @@ header {
     height: 10%;
 }
 
+
 .copyright {
     color: var(--branco-principal);
 	font-size: 15px;
+}
+
+@media screen and (max-width:400px) {
+    
 }
