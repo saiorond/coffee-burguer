@@ -252,6 +252,13 @@ header {
     }
     .cardapio {
         flex-direction: column;
+        text-align: center;
 
+    }
+    .texto {
+        font-size: 16px;
+        padding: 2em;
+        text-align: center;
+        line-height: 25px;
     }
 }
